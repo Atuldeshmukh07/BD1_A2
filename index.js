@@ -1,9 +1,9 @@
 const express = require('express');
 const { resolve } = require('path');
+const cors = require('cors');
 
 const app = express();
 const port = 3000;
-const cors = require('cors');
 app.use(cors());
 
 // Endpoint 1: Calculate the Returns of the Stocks added.
